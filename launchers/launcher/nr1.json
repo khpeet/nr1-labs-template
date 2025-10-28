@@ -1,0 +1,7 @@
+{
+  "schemaType": "LAUNCHER",
+  "id": "root-launcher",
+  "displayName": "{{ PROJECT_NAME }}",
+  "description": "{{ app_description }}",
+  "rootNerdletId": "root-nerdlet"
+}

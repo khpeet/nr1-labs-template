@@ -1,0 +1,19 @@
+{
+  "tagline": "Alert Quality Management",
+  "repository": "https://github.com/newrelic/nr1-labs-template.git",
+  "details": "{{ app_description }}",
+  "categoryTerms": [],
+  "keywords": ["labs", "nrlabs"],
+  "support": {
+    "issues": {
+      "url": "https://github.com/newrelic/nr1-labs-template/issues"
+    },
+    "email": {
+      "address": "opensource+nr-labs-template@newrelic.com"
+    },
+    "community": {
+      "url": "https://github.com/newrelic/nr1-labs-template/issues"
+    }
+  },
+  "whatsNew": "Labs Template Release"
+}
