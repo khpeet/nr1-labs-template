@@ -1,32 +1,34 @@
 <a href="https://opensource.newrelic.com/oss-category/#community-plus"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Plus.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"><img alt="New Relic Open Source community plus project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"></picture></a>
 
-<a href="https://opensource.newrelic.com/oss-category/#one-catalog"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/New_Relic_One_Catalog_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png"><img alt="New Relic Open Source community plus project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png"></picture></a>
-
 
 # {{ PROJECT_NAME }}
 
-{{ app_description }}
+{{ APP_DESCRIPTION }}
 
 
 ## Dependencies
 
-{{ app_dependencies }}
+{{ APP_DEPENDENCIES }}
 
 
-## <a id="enable"></a>Enabling this App
+## <a id="enable"></a>Deploying this App
 
-This App is available via the New Relic Catalog.
+To deploy this app:
 
-To enable it in your account:
+Open a command prompt in the nerdpack's directory and run the following commands.
 
-1. go to `Integrations & Agents > Apps and Visualzations` and search for "{{ PROJECT_NAME }}"
-2. Click the `{{ PROJECT_NAME }}` card, and then click the `Add this App` button to add it to your account(s)
-3. Click `Open App` to launch the app (note: on the first time accessing the app, you may be prompted to enable it)
+```bash
+# To create a new uuid for the nerdpack so that you can deploy it to your account:
+# nr1 nerdpack:uuid -g [--profile=your_profile_name]
 
-Once you have added your accounts, you can also open the app by:
+# To see a list of API keys / profiles available in your development environment:
+# nr1 profiles:list
 
-1. Open the `Apps` left-hand navigation menu item (you may need to click on the `Add More` ellipsis if it doesn't show up by default)
-2. In the `Your Apps` section, locate and click on the `{{ PROJECT_NAME }}` card to open the app
+nr1 nerdpack:publish [--profile=your_profile_name]
+nr1 nerdpack:subscribe [-c [DEV|BETA|STABLE]] [--profile=your_profile_name]
+```
+
+Visit [https://one.newrelic.com](https://one.newrelic.com), navigate to the Nerdpack, and :sparkles:
 
 
 #### Manual Deployment
