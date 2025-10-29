@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "nr1-labs-template",
+    "name": "{{ PROJECT_NAME }}",
     "version": "0.1.0",
     "scripts": {
         "start": "nr1 nerdpack:serve",
