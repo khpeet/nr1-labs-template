@@ -2,5 +2,5 @@
   "schemaType": "NERDLET",
   "id": "root-nerdlet",
   "displayName": "{{ PROJECT_NAME }}",
-  "description": "{{ app_description }}"
+  "description": "{{ APP_DESCRIPTION }}"
 }
