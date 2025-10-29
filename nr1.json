@@ -1,6 +1,6 @@
 {
     "schemaType": "NERDPACK",
     "id": "72a2fbf4-0c16-4446-9661-a7253579a894",
-    "displayName": "Nr1LabsTemplate",
-    "description": "Nerdpack nr1-labs-template"
+    "displayName": "{{ PROJECT_NAME }}",
+    "description": "{{ APP_DESCRIPTION }}"
 }
