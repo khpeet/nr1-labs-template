@@ -27,6 +27,5 @@ jobs:
         if: ${{ steps.default-branch.outputs.result == 'true' }}
         uses: newrelic/repolinter-action@v1
         with:
-          # config_url: https://raw.githubusercontent.com/newrelic/.github/main/repolinter-rulesets/new-relic-one-catalog-project.json # use this for catalog app -> CLI will handle inputting this based on catalog=true|false
-          config_url: https://raw.githubusercontent.com/newrelic/.github/main/repolinter-rulesets/new-relic-one-community-project.json
+          config_url: {{ CONFIG_URL }}
           output_type: issue
